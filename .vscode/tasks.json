@@ -4,13 +4,13 @@
         {
             "label": "Run Home Assistant on port 9123",
             "type": "shell",
-            "command": "container start",
+            "command": "./develop",
             "problemMatcher": []
         },
         {
             "label": "Run Home Assistant configuration against /config",
             "type": "shell",
-            "command": "container check",
+            "command": "./scripts/develop",
             "problemMatcher": []
         },
         {
